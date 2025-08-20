@@ -1,0 +1,12 @@
+cnag_id library_id animal_id sex genome_size species cnag_project
+ABA19320 WGS_003 A572 NA 3.195615 "Ammotragus lervia" CGLZOO_05
+ABA20007 WGS_004 A568 F 3.37899 "Callimico goeldii" CGLZOO_05
+ABA20013 WGS_008 A501 M 3.26652 "Ceratotherium simum" CGLZOO_05
+ABA20105 WGS_012 A581 U 2.88999 "Aldabrachelys gigantea" CGLZOO_05
+ABA20106 WGS_013 A593 F 3.04158 "Hippopotamus amphibius" CGLZOO_05
+ABA20108 WGS_015 A510 M 3.06114 "Osphranter rufus" CGLZOO_05
+ABA20124 WGS_030 A489 M 3.11004 "Equus caballus" CGLZOO_05
+ABA20129 WGS_035 A495 F 3.5697 "Bos grunniens" CGLZOO_05
+ABA20131 WGS_037 A530 NA 3.45723 "Papio cynocephalus" CGLZOO_05
+ABA20133 WGS_039 A537 M 2.7384 "Crocuta crocuta" CGLZOO_05
+ABA20134 WGS_040 A239 F 3.16872 "Axis axis" CGLZOO_05

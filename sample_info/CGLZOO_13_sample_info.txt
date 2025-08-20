@@ -1,0 +1,7 @@
+cnag_id library_id animal_id sex genome_size species cnag_project
+ABA23453 WGS_090 A67 M 4.58682 "Aepyceros melampus" CGLZOO_13
+ABA23445 WGS_101 A183 M 4.7922 "Cercocebus torquatus" CGLZOO_13
+ABA23232 WGS_119 A307 F 4.7922 "Bison bonasus" CGLZOO_13
+ABA23481 WGS_135 A357 M 4.34232 "Loxodonta africana" CGLZOO_13
+ABA23489 WGS_143 A532 F 4.371659999 "Notamacropus rufogriseus" CGLZOO_13
+ABA23505 WGS_157 A509 F 4.371659999 "Notamacropus rufogriseus" CGLZOO_13

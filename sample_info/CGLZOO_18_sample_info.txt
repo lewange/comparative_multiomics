@@ -1,0 +1,12 @@
+cnag_id library_id animal_id sex genome_size species cnag_project
+ABA23918 WGS_175 A435 M 1.7604 "Ramphastos toco" CGLZOO_18
+ABA23926 WGS_181 A177 M 1.64304 "Bubo scandiacus" CGLZOO_18
+ABA23927 WGS_182 A256 NA 1.55502 "Strix aluco" CGLZOO_18
+ABA23931 WGS_186 A578 F 1.78974 "Python regius" CGLZOO_18
+ABA23943 WGS_197 A155 M 1.54524 "Halcyon malimbica" CGLZOO_18
+ABA23947 WGS_201 A383 M 1.58436 "Amazona brasiliensis" CGLZOO_18
+ABA23984 WGS_228 A452 F 1.87287 "Dracaena guianensis" CGLZOO_18
+ABA23990 WGS_234 A232 M 1.59414 "Tyto alba" CGLZOO_18
+ABA23996 WGS_239 A101 NA 1.54524 "Ciconia ciconia" CGLZOO_18
+ABA23997 WGS_240 A281 M 1.55502 "Eclectus roratus" CGLZOO_18
+ABA24011 WGS_253 A431 F 1.59414 "Spheniscus demersus" CGLZOO_18

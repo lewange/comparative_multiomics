@@ -1,0 +1,3 @@
+cnag_id library_id animal_id sex genome_size species cnag_project
+ABA20123 WGS_029 A583 F 4.58682 "Aepyceros melampus" CGLZOO_06
+ABA20130 WGS_036 A172 F 4.7922 "Bison bonasus" CGLZOO_06

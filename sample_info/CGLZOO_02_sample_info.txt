@@ -1,0 +1,22 @@
+cnag_id library_id animal_id sex genome_size species cnag_project
+BB1591 ATAC_1 A81 F 3.35454 "Callithrix geoffroyi" CGLZOO_02
+BB1592 ATAC_2 A288 F 2.8851 "Phacochoerus africanus" CGLZOO_02
+BB1593 ATAC_3 A322 M 3.61371 "Pan troglodytes" CGLZOO_02
+BB1594 ATAC_4 A286 NA 3.18828 "Oryctolagus cuniculus" CGLZOO_02
+BB1595 ATAC_5 A8 M 2.88021 "Lutra lutra" CGLZOO_02
+BB1596 ATAC_6 A37 F 3.04158 "Hexaprotodon liberiensis" CGLZOO_02
+BB1597 ATAC_7 A422 F 2.88021 "Mustela lutreola" CGLZOO_02
+BB1598 ATAC_8 A274 NA 3.45723 "Papio cynocephalus" CGLZOO_02
+BB1599 ATAC_9 A15 NA 3.48168 "Equus quagga" CGLZOO_02
+BB1600 ATAC_10 A13 NA 2.8851 "Panthera leo" CGLZOO_02
+BB1601 ATAC_11 A357 M 4.34232 "Loxodonta africana" CGLZOO_02
+BB1602 ATAC_12 A446 F 2.92422 "Muntiacus reevesi" CGLZOO_02
+BB1603 ATAC_13 A439 F 2.65038 "Panthera tigris" CGLZOO_02
+BB1604 ATAC_14 A353 F 3.970679999 "Procavia capensis" CGLZOO_02
+BB1605 ATAC_15 A424 F 3.5697 "Bos grunniens" CGLZOO_02
+BB1606 ATAC_16 A308 F 3.11004 "Equus caballus" CGLZOO_02
+BB1607 ATAC_17 A391 M 3.6638325 "Hydrochoerus hydrochaeris" CGLZOO_02
+BB1608 ATAC_18 A278 F 3.49146 "Gorilla gorilla" CGLZOO_02
+BB1609 ATAC_19 A345 F 3.0807 "Zalophus californianus" CGLZOO_02
+BB1610 ATAC_20 A460 NA 3.6186 "Dolichotis patagonum" CGLZOO_02
+BB1611 ATAC_21 A157 NA 3.57948 "Pongo pygmaeus" CGLZOO_02

@@ -1,0 +1,4 @@
+cnag_id library_id animal_id sex genome_size species cnag_project
+ABA23944 WGS_198 A436 F 4.22496 "Myrmecophaga tridactyla" CGLZOO_21
+ABA23953 WGS_207 A644 U 5.61372 "Bufo spinosus" CGLZOO_21
+ABA23955 WGS_209 A647 U 5.22252 "Rana pyrenaica" CGLZOO_21
