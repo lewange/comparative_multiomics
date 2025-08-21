@@ -35,7 +35,7 @@ sbatch runMultiQC.sh </result/path/cnag_project/>
 sbatch runMultiQC.sh /scratch_isilon/groups/compgen/data/Illumina_CryoZoo/BasicQC/CGLZOO_01
 ```
 For more information [BasicQC pipeline](BasicQC/README.md)  
----
+
 
 ## ATAC-seq
 Pipeline for ATAC-seq processing and analysis.  
