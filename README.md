@@ -1,44 +1,40 @@
 # Comparative Multiomics preprocessing Workflow
 
-## Overview
+## Overview 
 
 This repository contains scripts to process high throughput sequencing data from different molecular assays using standardized nf-core pipelines and refgenie to manage the high number of genomes and annotations. TOGA genome annotations are either downloaded from ... or generated from scratch using TOGA.
 ---
 
-## Dependencies / Installation
-To run the pipelines in this repository, install the following dependencies.  
-
-### Conda 
-
-Different dependencies require different conda environments specified in the subrepos
-
-
-### Nextflow
-Install Nextflow:
-```bash
-curl -s https://get.nextflow.io | bash
-mv nextflow ~/bin/  # or another directory in your PATH
-```
-
-### Optional tools
-- Java 11+ (required by Nextflow)  
-- refgenie (for genome management):
-- Other pipeline-specific tools may be installed via conda or system package manager.
-
----
 
 ## BasicQC pipeline
 This section describes the initial quality control (QC) steps for raw sequencing data.  
 
-- **Input**: FASTQ files  
-- **Tools**: [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/), [FastQ Screen](https://www.bioinformatics.babraham.ac.uk/projects/fastq_screen/), etc.  
-- **Output**: QC reports (HTML/summary tables)  
+- **Input**: cnag sample info  
+- **Tools**: [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/), [FastQ Screen](https://www.bioinformatics.babraham.ac.uk/projects/fastq_screen/), [kraken2](https://ccb.jhu.edu/software/kraken2/)  
+- **Output**: Multi QC reports (HTML/summary tables)  
 
 **Usage example:**
 ```bash
-nextflow run basicqc.nf --reads "data/*_R{1,2}.fastq.gz"
+### activate the conda environment
+conda activate basicQC
 ```
+To run the frist part of the pipeline:
 
+```bash
+## run QC version 1.3
+bash runQC_1.3.sh </raw/data/path/> <cnag_project> </result/path/>
+bash runQC_1.3.sh /scratch_isilon/groups/compgen/data_transfer CGLZOO_01 RNA-seq /scratch_isilon/groups/compgen/data/Illumina_CryoZoo/BasicQC
+
+```
+to run MultiQC
+
+```bash
+conda activate multiQC
+
+sbatch runMultiQC.sh </result/path/cnag_project/>
+sbatch runMultiQC.sh /scratch_isilon/groups/compgen/data/Illumina_CryoZoo/BasicQC/CGLZOO_01
+```
+For more information [BasicQC pipeline](BasicQC/README.md)  
 ---
 
 ## ATAC-seq
@@ -75,7 +71,7 @@ This repository uses [refgenie](http://refgenie.databio.org/) to manage genome r
 The available genomes are listed below and updated automatically:  
 
 <!-- GENOMES_START -->
-## Available Genomes
+### Available Genomes
 ```
                               Local refgenie assets                               
                Server subscriptions: http://refgenomes.databio.org                
@@ -127,3 +123,26 @@ The available genomes are listed below and updated automatically:
 └────────────────────────────────┴───────────────────────────────────────────────┘
                use refgenie list -g <genome> for more detailed view               
 ```
+
+
+## Dependencies / Installation
+To run the pipelines in this repository, install the following dependencies.  
+
+### Conda 
+
+Different dependencies require different conda environments specified in the subrepos
+
+
+### Nextflow
+Install Nextflow:
+```bash
+curl -s https://get.nextflow.io | bash
+mv nextflow ~/bin/  # or another directory in your PATH
+```
+
+### Optional tools
+- Java 11+ (required by Nextflow)  
+- refgenie (for genome management):
+- Other pipeline-specific tools may be installed via conda or system package manager.
+
+---

@@ -1,0 +1,2 @@
+made softlinks in /scratch_isilon/groups/compgen/data_transfer for source data as follows
+ln -s /shared/compgen/data_transfer/CGLZOO_{09..13} .
